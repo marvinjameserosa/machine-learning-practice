@@ -59,10 +59,9 @@ for grades in range(len(prediction)):
 
 # Select data point you want to check
 dataPoint = 'age'
-
 # Graphing Function
 style.use('ggplot')
-pyplot.scatter(data[dataPoint], data['G3'])
-pyplot.xlabel(dataPoint)
-pyplot.ylabel('final grade')
+pyplot.scatter(data['G3'], data[dataPoint])
+pyplot.xlabel('final grade'.upper())
+pyplot.ylabel(dataPoint.upper())
 pyplot.show()
