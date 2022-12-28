@@ -1,9 +1,11 @@
+# Packages Used 
 import numpy as np
 import pandas as pd
 import pickle as pk
 from sklearn import model_selection
 from sklearn import linear_model
 from matplotlib import style
+from matplotlib import pyplot
 
 # Importing data to file
 data = pd.read_csv('student-mat.csv', sep=";")
@@ -55,4 +57,12 @@ prediction = linear.predict(xTest)
 for grades in range(len(prediction)):
     print(prediction[grades], xTest[grades], yTest[grades])
 
+# Select data point you want to check
+dataPoint = 'age'
+
+# Graphing Function
 style.use('ggplot')
+pyplot.scatter(data[dataPoint], data['G3'])
+pyplot.xlabel(dataPoint)
+pyplot.ylabel('final grade')
+pyplot.show()
