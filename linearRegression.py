@@ -2,10 +2,9 @@
 import numpy as np
 import pandas as pd
 import pickle as pk
-from sklearn import model_selection
-from sklearn import linear_model
-from matplotlib import style
-from matplotlib import pyplot
+from sklearn import linear_model, model_selection
+from matplotlib import style, pyplot
+
 
 # Importing data to file
 data = pd.read_csv('student-mat.csv', sep=";")
