@@ -16,7 +16,7 @@ classes = ['maglignant', 'benign']
 
 # Training using SVM
 ## Setting up SVC
-clf = svm.SVC()
+clf = svm.SVC(kernel='linear')
 clf.fit(xTrain, yTrain)
 
 ## Testing and Checking accuracy
