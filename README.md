@@ -14,3 +14,8 @@ Program's File Name: knn.py
 Data Used File Name: car.data
 <br>
 Source Link for Data File: [UCI's Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/car+evaluation)
+
+## Support Vector Algorithm  
+Program's File Name: svm.py
+<br>
+Data Used File Name: Built-in sklearn dataset

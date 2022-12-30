@@ -22,14 +22,14 @@ Y = np.array(data[predict])
 iteration = int(input("Enter how may times you want to test the data:"))
 currentScore = 0
 
-# Splitting attributes for Testing
-
+# Splitting attributes for Testing [storing them in a tuple]
 xTrain, xTest, yTrain, yTest = model_selection.train_test_split(X, Y, test_size=0.1)
+
 
 for test in range(iteration):
 
-    xTrain, xTest, yTrain, yTest = model_selection.train_test_split(X, Y, test_size=0.1)
-    30
+    xTrain, xTest, yTrain, yTest
+
     # Getting the accuracy of the prediction
     ## Testing Data
     linear = linear_model.LinearRegression()
