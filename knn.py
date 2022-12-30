@@ -1,8 +1,6 @@
 import pandas as pd
-import numpy as np
-from sklearn.utils import shuffle
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn import linear_model, preprocessing, model_selection
+from sklearn import preprocessing, model_selection
 
 # Reading from file
 
